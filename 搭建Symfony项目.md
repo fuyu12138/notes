@@ -19,12 +19,12 @@ composer require symfony/maker-bundle --dev
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name"
 
 ## LexikJWTAuthenticationBundle安装
-1 composer require lexik/jwt-authentication-bundle --dev
-2 生成ssh秘钥
-$ mkdir -p config/jwt # For Symfony3+, no need of the -p option
+1. composer require lexik/jwt-authentication-bundle --dev
+2. 生成ssh秘钥
+$ mkdir -p config/jwt # For Symfony3+, no need of the -p option<br>
 $ openssl genrsa -out config/jwt/private.pem -aes256 4096<br>
 $ openssl rsa -pubout -in config/jwt/private.pem -out config/jwt/public.pem
-3 配置
+3. 配置
 .env修改密码
 config/packages/lexik_jwt_authentication.yaml
 
