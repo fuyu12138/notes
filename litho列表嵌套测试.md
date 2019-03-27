@@ -1,6 +1,6 @@
 测试了下在纵向recyclerView中嵌套一个横向RecyclerView的场景。
-1.原始情况：屏幕显示6个Grid布局的RecyclerView,每个GridView里有12*2个TextView。(使用实际业务的页面，布局实际上比Litho使用的略复杂)
-2.litho:屏幕显示12个Linear横向布局RecyclerView,每个RV里有23个TextView。
+1. 原始情况：屏幕显示6个Grid布局的RecyclerView,每个GridView里有12*2个TextView。(使用实际业务的页面，布局实际上比Litho使用的略复杂)
+2. litho:屏幕显示12个Linear横向布局RecyclerView,每个RV里有23个TextView。
 感官上的结果：
 ### litho
 1. 丝滑般流畅
